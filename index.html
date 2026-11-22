@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Website demo SMAN 6 Garut" />
+    <title>SMAN 6 Garut — Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container" aria-label="Navigasi utama">
+        <a class="brand" href="#beranda" aria-label="Beranda">
+          <span class="brand-mark">6G</span>
+          <span><strong>SMAN 6 Garut</strong><small>Sekolah Unggul & Berkarakter</small></span>
+        </a>
+        <button class="menu-button" aria-expanded="false" aria-controls="nav-links" aria-label="Buka menu">☰</button>
+        <div class="nav-links" id="nav-links">
+          <a href="#beranda">Beranda</a>
+          <a href="#tentang">Tentang</a>
+          <a href="#berita">Berita</a>
+          <a href="#prestasi">Prestasi</a>
+          <a href="#kontak" class="nav-contact">Kontak</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="beranda">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Penerimaan peserta didik baru</span>
+            <h1>Belajar, berkembang,<br><em>menginspirasi.</em></h1>
+            <p>Membangun generasi berprestasi, berkarakter, dan siap menghadapi masa depan.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#tentang">Kenali Sekolah Kami</a>
+              <a class="button button-secondary" href="#kontak">Hubungi Kami <span>→</span></a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-label="Ilustrasi kegiatan sekolah">
+            <div class="visual-card">
+              <div class="building">
+                <div class="roof"></div>
+                <div class="building-top"><span></span><span></span><span></span></div>
+                <div class="building-main">
+                  <i></i><i></i><i></i><i></i>
+                  <div class="door"></div>
+                </div>
+              </div>
+              <div class="sun"></div>
+              <div class="cloud cloud-one"></div>
+              <div class="cloud cloud-two"></div>
+              <div class="ground"></div>
+              <div class="stat-card"><strong>31+</strong><span>Tahun Berdiri</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Informasi sekolah">
+        <div class="container stats-grid">
+          <div><strong>1.200+</strong><span>Peserta Didik</span></div>
+          <div><strong>80+</strong><span>Pendidik & Tenaga Kependidikan</span></div>
+          <div><strong>25+</strong><span>Ekstrakurikuler</span></div>
+          <div><strong>95%</strong><span>Kelulusan</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="tentang">
+        <div class="container about-grid">
+          <div>
+            <span class="section-label">Tentang Kami</span>
+            <h2>Lingkungan belajar yang aman dan inspiratif</h2>
+          </div>
+          <div class="about-copy">
+            <p>SMAN 6 Garut berkomitmen memberikan pendidikan berkualitas melalui pembelajaran aktif, pengembangan karakter, dan dukungan terhadap bakat peserta didik.</p>
+            <a href="#kontak" class="text-link">Pelajari lebih lanjut →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section news-section" id="berita">
+        <div class="container">
+          <div class="section-heading">
+            <div><span class="section-label">Kabar Sekolah</span><h2>Berita & pengumuman</h2></div>
+            <a href="#" class="text-link">Lihat semua →</a>
+          </div>
+          <div class="news-grid">
+            <article class="news-card featured">
+              <div class="news-image image-one"><span>OSIS</span></div>
+              <div class="news-body"><time datetime="2026-10-12">12 Oktober 2026</time><h3>Pendaftaran kegiatan ekstrakurikuler dibuka</h3><p>Peserta didik dapat memilih kegiatan sesuai minat dan bakat untuk semester ini.</p></div>
+            </article>
+            <article class="news-card">
+              <div class="news-image image-two"><span>Prestasi</span></div>
+              <div class="news-body"><time datetime="2026-10-08">8 Oktober 2026</time><h3>Tim sains meraih juara lomba regional</h3></div>
+            </article>
+            <article class="news-card">
+              <div class="news-image image-three"><span>Umum</span></div>
+              <div class="news-body"><time datetime="2026-09-30">30 September 2026</time><h3>Jadwal kegiatan tengah semester</h3></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="prestasi">
+        <div class="container achievements">
+          <div><span class="section-label">Prestasi</span><h2>Berproses, berprestasi, bertumbuh</h2></div>
+          <blockquote>“Pendidikan bukan hanya mempersiapkan masa depan, tetapi membangun masa depan melalui setiap hari.”</blockquote>
+        </div>
+      </section>
+
+      <section class="cta" id="kontak">
+        <div class="container cta-inner">
+          <div><span class="section-label">Hubungi Kami</span><h2>Punya pertanyaan?</h2><p>Tim kami siap membantu informasi tentang sekolah dan pendaftaran.</p></div>
+          <a class="button button-white" href="mailto:demo@example.com">Kirim Pesan →</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-grid">
+        <div class="brand footer-brand"><span class="brand-mark">6G</span><span><strong>SMAN 6 Garut</strong><small>Demo website sekolah</small></span></div>
+        <p>Jl. Pendidikan No. 123, Garut, Jawa Barat<br><a href="mailto:demo@example.com">demo@example.com</a></p>
+        <p>© 2026 Demo SMAN 6 Garut<br>Website demonstrasi dengan data anonim.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
